@@ -40,7 +40,7 @@ p {
 .btn > i {
   padding-left: 8px;
 }
-
+/* Media queries phone */
 @media (max-width: 700px) {
   h1 {
     font-size: 40px;
@@ -82,7 +82,7 @@ p {
 }
 
 /* Slider Media queries */
-@media (max-width: 700px) {
+@media (max-width: 480px) {
   .slider {
     flex-direction: column;
     padding: 5% 10%;
@@ -117,7 +117,7 @@ p {
 }
 
 /* Players Section media queries */
-@media (max-width: 700px) {
+@media only screen and (max-width: 480px) {
   .players {
     grid-template-columns: 1fr;
     margin-top: 40px;
@@ -130,7 +130,8 @@ p {
   }
 }
 
-@media (max-width: 801px) {
+/* for tablet */
+@media (min-width: 481px) and (max-width: 850px) {
   .players {
     grid-template-columns: 1fr 1fr;
     margin-top: 40px;
@@ -175,7 +176,7 @@ p {
 }
 
 /* Highlight Section media queries */
-@media (max-width: 700px) {
+@media (max-width: 480px) {
   .highlights {
     flex-direction: column;
     margin-bottom: 30px;
@@ -268,7 +269,7 @@ p {
 }
 
 /* Latest News Section media queries */
-@media (max-width: 700px) {
+@media (max-width: 480px) {
   .latest-news {
     padding: 5% 10%;
   }
@@ -321,7 +322,7 @@ footer .social-icons a i {
 }
 
 /* Footer Section media queries */
-@media (max-width: 700px) {
+@media (max-width: 480px) {
   footer img {
     width: 80%;
   }
