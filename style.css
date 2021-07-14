@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+}
+
+h1 {
+  line-height: 80px;
+  font-weight: bold;
+  font-size: 64px;
+}
+
+h2 {
+  line-height: 80px;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+p {
+  line-height: 26px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6c6c6c;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 25px;
+  color: white;
+  background-color: #e02c6e;
+  text-decoration: none;
+  transition: transform 0.5s;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
+.btn > i {
+  padding-left: 8px;
+}
+
+/* Slider Styles */
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d26a0;
+  padding: 4em 8em;
+}
+#slider-heading {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.slider > div {
+  width: 50%;
+}
+
+.slider > div > img {
+  display: block;
+  width: 100%;
+  transition: transform 0.5s;
+}
+
+.slider > div > img:hover {
+  transform: scale(1.1) translateX(50px);
+}
+
+/* Players Section styles */
