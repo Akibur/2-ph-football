@@ -118,6 +118,81 @@ p {
   margin-top: 5px;
 }
 
+/* Vision Styles  */
+
+.vision {
+  background-image: url(images/vision.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #2d26a0;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.vision h1 {
+  color: white;
+  margin-bottom: 5px;
+}
+.vision p {
+  color: white;
+}
+
+.vision .btn {
+  background-color: #2d26a0;
+  color: white;
+}
+
+/* Latest News  */
+
+.latest-news {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 15%;
+}
+
+.latest-news h1 {
+  font-size: 48px;
+  line-height: 60px;
+  margin-bottom: 10%;
+}
+
+.latest-news .posts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.latest-news .posts article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin: 10px;
+  box-shadow: 1px 1px 25px rgba(128, 128, 128, 0.399);
+  padding-bottom: 30px;
+  border-radius: 5%;
+}
+
+.latest-news .posts img {
+  width: 100%;
+  padding: 0px;
+
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+
+.latest-news .posts h2 {
+  font-size: 25px;
+  margin-top: 30px;
+}
+
 /* Footer styles */
 
 footer {
