@@ -86,3 +86,36 @@ p {
 .player > img {
   width: 100%;
 }
+
+/* Highlights Section Styles */
+.highlights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 15%;
+}
+
+.highlights img {
+  width: 80%;
+}
+
+.highlights > div {
+  width: 50%;
+}
+
+.highlights > div > img {
+  display: block;
+  width: 100%;
+}
+
+.highlights > div > h1 {
+  font-size: 48px;
+  line-height: 60px;
+  margin: 0px;
+}
+
+.highlights > div > a {
+  margin-top: 5px;
+}
+
+/* Footer styles */
