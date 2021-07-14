@@ -12,13 +12,13 @@ h1 {
 }
 
 h2 {
-  line-height: 80px;
+  line-height: 20px;
   font-weight: bold;
   font-size: 28px;
 }
 
 p {
-  line-height: 26px;
+  line-height: 25px;
   font-weight: 400;
   font-size: 16px;
   color: #6c6c6c;
@@ -48,7 +48,7 @@ p {
   justify-content: center;
   align-items: center;
   background-color: #2d26a0;
-  padding: 4em 8em;
+  padding: 5% 15%;
 }
 #slider-heading {
   color: white;
@@ -70,3 +70,19 @@ p {
 }
 
 /* Players Section styles */
+
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 5% 13%;
+}
+
+.player {
+  margin: 15px;
+  box-shadow: 1px 1px 25px rgba(128, 128, 128, 0.399);
+  padding: 15px;
+  padding-bottom: 30px;
+}
+.player > img {
+  width: 100%;
+}
