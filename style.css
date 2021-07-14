@@ -119,3 +119,24 @@ p {
 }
 
 /* Footer styles */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 15%;
+}
+
+footer img {
+  width: 30%;
+}
+
+footer .social-icons a {
+  text-decoration: none;
+}
+
+footer .social-icons a i {
+  color: #6c6c6c;
+  margin-right: 8px;
+}
