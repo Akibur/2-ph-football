@@ -41,6 +41,18 @@ p {
   padding-left: 8px;
 }
 
+@media (max-width: 700px) {
+  h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  h2 {
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 25px;
+  }
+}
+
 /* Slider Styles */
 
 .slider {
@@ -69,6 +81,23 @@ p {
   transform: scale(1.1) translateX(50px);
 }
 
+/* Slider Media queries */
+@media (max-width: 700px) {
+  .slider {
+    flex-direction: column;
+    padding: 5% 10%;
+  }
+  .slider > div {
+    text-align: left;
+    width: 100%;
+  }
+  .slider > div > img {
+    display: block;
+    margin-top: 20%;
+    width: 100%;
+  }
+}
+
 /* Players Section styles */
 
 .players {
@@ -85,6 +114,33 @@ p {
 }
 .player > img {
   width: 100%;
+}
+
+/* Players Section media queries */
+@media (max-width: 700px) {
+  .players {
+    grid-template-columns: 1fr;
+    margin-top: 40px;
+    padding: 5% 5%;
+  }
+  .player {
+    box-shadow: 1px 1px 25px rgba(128, 128, 128, 0.399);
+    padding: 15px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 801px) {
+  .players {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+    padding: 5% 5%;
+  }
+  .player {
+    box-shadow: 1px 1px 25px rgba(128, 128, 128, 0.399);
+    padding: 15px;
+    padding-bottom: 30px;
+  }
 }
 
 /* Highlights Section Styles */
@@ -118,6 +174,24 @@ p {
   margin-top: 5px;
 }
 
+/* Highlight Section media queries */
+@media (max-width: 700px) {
+  .highlights {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .highlights > div {
+    width: 100%;
+  }
+  .highlights > div > h1 {
+    font-size: 28px;
+    line-height: 40px;
+    margin: 0px;
+  }
+  .highlights > div > img {
+    margin-top: 30px;
+  }
+}
 /* Vision Styles  */
 
 .vision {
@@ -193,6 +267,36 @@ p {
   margin-top: 30px;
 }
 
+/* Latest News Section media queries */
+@media (max-width: 700px) {
+  .latest-news {
+    padding: 5% 10%;
+  }
+  .latest-news h1 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 10%;
+  }
+  .latest-news .posts {
+    flex-direction: column;
+  }
+  .latest-news .posts h2 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .latest-news .posts article {
+    margin: 5px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 801px) {
+  .latest-news .posts {
+    flex-direction: column;
+  }
+}
+
 /* Footer styles */
 
 footer {
@@ -214,4 +318,11 @@ footer .social-icons a {
 footer .social-icons a i {
   color: #6c6c6c;
   margin-right: 8px;
+}
+
+/* Footer Section media queries */
+@media (max-width: 700px) {
+  footer img {
+    width: 80%;
+  }
 }
