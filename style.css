@@ -37,9 +37,11 @@ p {
 .btn:hover {
   transform: scale(1.2);
 }
+
 .btn > i {
   padding-left: 8px;
 }
+
 /* Media queries phone */
 @media (max-width: 700px) {
   h1 {
@@ -62,6 +64,7 @@ p {
   background-color: #2d26a0;
   padding: 5% 15%;
 }
+
 #slider-heading {
   color: white;
   margin-bottom: 30px;
@@ -87,10 +90,12 @@ p {
     flex-direction: column;
     padding: 5% 10%;
   }
+
   .slider > div {
     text-align: left;
     width: 100%;
   }
+
   .slider > div > img {
     display: block;
     margin-top: 20%;
@@ -112,6 +117,7 @@ p {
   padding: 15px;
   padding-bottom: 30px;
 }
+
 .player > img {
   width: 100%;
 }
@@ -123,6 +129,7 @@ p {
     margin-top: 40px;
     padding: 5% 5%;
   }
+
   .player {
     box-shadow: 1px 1px 25px rgba(128, 128, 128, 0.399);
     padding: 15px;
@@ -137,6 +144,7 @@ p {
     margin-top: 40px;
     padding: 5% 5%;
   }
+
   .player {
     box-shadow: 1px 1px 25px rgba(128, 128, 128, 0.399);
     padding: 15px;
@@ -181,20 +189,23 @@ p {
     flex-direction: column;
     margin-bottom: 30px;
   }
+
   .highlights > div {
     width: 100%;
   }
+
   .highlights > div > h1 {
     font-size: 28px;
     line-height: 40px;
     margin: 0px;
   }
+
   .highlights > div > img {
     margin-top: 30px;
   }
 }
-/* Vision Styles  */
 
+/* Vision Section  Styles  */
 .vision {
   background-image: url(images/vision.png);
   background-size: cover;
@@ -213,6 +224,7 @@ p {
   color: white;
   margin-bottom: 5px;
 }
+
 .vision p {
   color: white;
 }
@@ -222,8 +234,7 @@ p {
   color: white;
 }
 
-/* Latest News  */
-
+/* Latest News section styles  */
 .latest-news {
   display: flex;
   flex-direction: column;
@@ -243,12 +254,12 @@ p {
   justify-content: center;
   align-items: center;
 }
+
 .latest-news .posts article {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
   margin: 10px;
   box-shadow: 1px 1px 25px rgba(128, 128, 128, 0.399);
   padding-bottom: 30px;
@@ -258,7 +269,6 @@ p {
 .latest-news .posts img {
   width: 100%;
   padding: 0px;
-
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
 }
@@ -273,14 +283,17 @@ p {
   .latest-news {
     padding: 5% 10%;
   }
+
   .latest-news h1 {
     font-size: 35px;
     line-height: 40px;
     margin-bottom: 10%;
   }
+
   .latest-news .posts {
     flex-direction: column;
   }
+
   .latest-news .posts h2 {
     font-size: 20px;
     margin-top: 30px;
@@ -292,9 +305,14 @@ p {
   }
 }
 
-@media (max-width: 801px) {
+@media (min-width: 481px) and (max-width: 850px) {
   .latest-news .posts {
     flex-direction: column;
+  }
+
+  .latest-news .posts h2 {
+    font-size: 20px;
+    margin-top: 30px;
   }
 }
 
